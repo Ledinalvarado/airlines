@@ -24,6 +24,8 @@ class FlightController extends Controller
 //        $vuelos = Flight::whereNotIn('id',[6,4,5])->get();
 //        $vuelos = Flight::whereDate('created_at',  '2026-10-27');
 
+        //practicando
+
         $vuelos = Flight::all();
 //        $vuelos_count = Flight::exists();
 //        dd($vuelos_count);sum('total'), avg('total')
